@@ -1,0 +1,11 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #08a71b;
+  color: #000000;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
