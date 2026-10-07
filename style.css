@@ -1,7 +1,11 @@
 * {
   box-sizing: border-box;
 }
+#all-contents {
+  max-width: 800px;
+  margin: auto;
 
+}
 body {
   margin: 0;
   background: #200ac6;
@@ -118,7 +122,8 @@ nav {
   align-items: center;
   margin-bottom: 48px;
   padding: 16px 24px;
-  background: #fff;
+  background: #1a1a2e;
+  border-color: #1a1a2e;
   border: 1px solid #e0e0e0;
   border-radius: 12px;
 }
@@ -156,10 +161,6 @@ nav h1 {
   background: #000;
   color: #fff;
 }
-nav {
-  background: #1a1a2e;
-  border-color: #1a1a2e;
-}
 
 nav h1 {
   color: #a8b2d8;
@@ -179,12 +180,7 @@ main {
   gap: 24px;
 }
 
-.sidebar-img {
-  display: block;
-  width: 180px;
-  height: 180px;
-  object-fit: cover;
-}
+
 
 .content {
   flex: 1;
