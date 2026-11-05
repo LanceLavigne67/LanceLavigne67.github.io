@@ -113,7 +113,7 @@ var Gamification = (function () {
   function createPlayer1() {
     player1 = draw.randomCircleInArea(canvas, true, true, "#00FF00", 3);
     player1.radius = 15;
-    player1.scaleX = player1.scaleY = 1.5;
+    player1.scaleX = player1.scaleY = 1;
 
     // Set consistent start position
     player1.x = PLAYER_START_POSITIONS.player1.x;
@@ -148,7 +148,7 @@ var Gamification = (function () {
     // Create player2 using the same method as player1 but with blue color
     player2 = draw.randomCircleInArea(canvas, true, true, "#0080FF", 3);
     player2.radius = 15;
-    player2.scaleX = player2.scaleY = 1.5;
+    player2.scaleX = player2.scaleY = 1;
 
     // Set consistent start position
     player2.x = PLAYER_START_POSITIONS.player2.x;
